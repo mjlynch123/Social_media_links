@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kumbh+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html {
+      background-color: hsl(0, 0%, 8%);
+    }
+
+    .link-box {
+      border: 1px solid;
+      height: auto;
+      padding-bottom: 25px;
+      padding-top: 25px;
+      width: 450px;
+      font-family: "Inter";
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 10px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .link-box img {
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      position: relative;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .name,
+    .location,
+    .bio {
+      text-align: center;
+      color: white;
+    }
+
+    .name {
+      margin-top: 15px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .bio {
+      margin-top: 25px;
+    }
+
+    .location {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      color: hsl(75, 94%, 57%);
+    }
+
+    .link {
+      text-align: center;
+      background-color: hsl(0, 0%, 20%);
+      color: white;
+      margin: 15px auto;
+      width: 80%;
+      padding: 19px;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      position: absolute;
+      bottom: 10px;
+      width: 350px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="link-box">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall" />
+    <div class="name">Jessica Randall</div>
+    <div class="location">London, United Kingdom</div>
+    <div class="bio">"Front-end developer and avid reader."</div>
+
+    <div class="link">GitHub</div>
+    <div class="link">Frontend Mentor</div>
+    <div class="link">LinkedIn</div>
+    <div class="link">Twitter</div>
+    <div class="link">Instagram</div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://martinlynch.herokuapp.com/">Martin Lynch</a>.
+  </div>
+</body>
+
+</html>
